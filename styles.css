@@ -1,0 +1,109 @@
+body {
+    background-image: url(./images/background_photo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;   
+    background-attachment: fixed;
+    backdrop-filter: blur(3px);
+    font-family:'Indie Flower','Pacifico','Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Pacifico';    
+    font-size: 160px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    display: flex;
+    margin: 0px;
+    font-family: 'Pacifico';
+}
+
+h3 {
+    font-family:'Pacifico';
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container_main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(	255, 255, 255, 75% );
+    margin: auto 200px;
+}
+
+.photo_main {
+    padding: 20px 20px 8px 20px;
+    background-color: #a9957b;
+}
+
+.photo_main img {
+    width: 100%;
+}
+
+.header_2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-size: clamp( 2em, 5vw, 5em);
+}
+
+#paddin {
+    display: flex;
+    background-color : #a9957b;
+    padding: 0.5% 47%;
+}
+
+.header_2 #paddin {
+    display: flex;
+    padding : 0.5% 13%;
+    margin : auto;
+}
+
+.parrafo_unic {
+    font-size: x-large;
+    padding: 0px 20px;
+    font-weight: 800;
+}
+
+.photo {
+    display: flex;
+    padding: 20px;
+    background: #a9957b;
+    width: 100%;
+    margin-left: -20px;
+}
+
+.recipe {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 20px;
+    font-weight: 800;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+
+
