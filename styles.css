@@ -44,7 +44,7 @@ a {
     align-items: center;
     justify-content: center;
     background-color: rgba(	255, 255, 255, 75% );
-    margin: auto 200px;
+    margin: 0 200px 10px 200px;
 }
 
 .photo_main {
@@ -97,10 +97,12 @@ a {
     font-weight: 800;
 }
 
-footer {
+footer p{
     display: flex;
     width: 100%;
     justify-content: center;
+    margin-bottom: 0;
+    font-size: large;
 }
 
 
